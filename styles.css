@@ -1,0 +1,27 @@
+.body{
+    background-color: #393e46;
+}
+.content{
+    text-align: center;
+}
+.timer{
+    font-size: 13.2vw;
+    color: #00d4df;
+    /* color: #2980b9; */
+    margin: 0;
+    font-family: 'Caveat', cursive;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.button{
+    margin-top: 50px;
+    width: 30vw;
+    padding: 10px 20px; /* Задайте отступы по вашему усмотрению */
+    border: none;
+    border-radius: 20px; /* Закругление углов */
+    background-color: #00d4df; /* Цвет фона кнопки */
+    color: #fff; /* Цвет текста на кнопке */
+    font-size: 5vw; /* Размер шрифта */
+    cursor: pointer; /* Изменение курсора при наведении */
+}
+
