@@ -13,6 +13,15 @@
     font-family: 'Source Code Pro', monospace;
 }
 
+.header{
+    font-size: 9vw;
+    color: #00d4df;
+    /* color: #2980b9; */
+    margin-top: 50px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Source Code Pro', monospace;
+}
+
 .button{
     margin-top: 50px;
     width: 30vw;
