@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'borsok'; /* Замените 'YourFontName' на имя, которое вы хотите использовать для шрифта */
+    src: url('Fonts/boorsok.otf') format('opentype');
+    /* Дополнительные свойства, такие как font-weight и font-style, могут быть добавлены, если необходимо */
+}
 .body{
     background-color: #393e46;
 }
@@ -9,8 +14,11 @@
     color: #00d4df;
     /* color: #2980b9; */
     margin: 0;
-    font-family: 'Caveat', cursive;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'borsok', sans-serif;
+    font-weight: 100;
+
+    /* font-family: 'Caveat', cursive;
+    font-family: 'Source Code Pro', monospace; */
 }
 
 .header{
@@ -18,8 +26,12 @@
     color: #00d4df;
     /* color: #2980b9; */
     margin-top: 50px;
-    font-family: 'Caveat', cursive;
-    font-family: 'Source Code Pro', monospace;
+
+    font-family: 'borsok', sans-serif;
+    font-weight: 100;
+
+    /* font-family: 'Caveat', cursive;
+    font-family: 'Source Code Pro', monospace; */
 }
 
 .button{
