@@ -6,6 +6,11 @@
     background-color: #393e46;
     font-family: 'borsok', sans-serif;
     font-weight: 100;
+    background-image: url('Images/Frame_33.png');
+    background-size: 3000px;
+    background-position: -300px;
+    background-repeat: no-repeat;
+    
 }
 .content{
     text-align: center;
@@ -15,32 +20,37 @@
     height: 100vh;
 }
 .div{
-    
+    margin-top: -50px;
 }
 .timer{
     font-size: 17vw;
-    margin-top: 30px; 
-    color: #00d4df;
-    /* color: #2980b9; */
-    /* font-family: 'Source Code Pro', monospace;  */
+    /* margin-top: 30px;  */
+    /* color: #00d4df;
+    color: linear-gradient(45deg, #FF00FF, #00FFFF); */
+
+    background: linear-gradient(180deg, #fa97cb, #4e99e4); /* Градиентные цвета */
+    background-clip: text; /* Применение фона только к тексту */
+    -webkit-background-clip: text; /* Для совместимости с некоторыми браузерами */
+    color: transparent;
 }
 
 .header{
     font-size: 9vw;
-    color: #00d4df;
-    /* color: #2980b9; */
+    color: linear-gradient(45deg, #FF00FF, #00FFFF);
+    /* color: #00d4df; */
     margin-top: 50px;
 }
 
 .button{
     margin-top: 20px;
     width: 40vw;
-    padding: 18px 20px 10px 20px; 
+    padding: 20px 20px 10px 20px; 
     border: none;
     border-radius: 30px; 
-    background-color: #00d4df; 
+    /* background-color: #00d4df;  */
+    background: linear-gradient(180deg, #fa97cb, #4e99e4);
     color: #fff; 
-    font-size: 8vw; 
+    font-size: 9vw; 
     text-align: center;
     vertical-align: bottom;
     cursor: pointer;
