@@ -21,3 +21,8 @@ function updateTimer() {
 updateTimer()
 
 var countdownInterval = setInterval(updateTimer, 1000);
+
+
+document.getElementById("whatButton").addEventListener("click", function() {
+    window.location.href = "https://vk.com/wall-103717209_1434"; // Замените URL на вашу целевую ссылку
+});

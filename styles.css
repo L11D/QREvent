@@ -1,24 +1,21 @@
 @font-face {
-    font-family: 'borsok'; /* Замените 'YourFontName' на имя, которое вы хотите использовать для шрифта */
+    font-family: 'borsok'; 
     src: url('Fonts/boorsok.otf') format('opentype');
-    /* Дополнительные свойства, такие как font-weight и font-style, могут быть добавлены, если необходимо */
 }
 .body{
     background-color: #393e46;
+    font-family: 'borsok', sans-serif;
+    font-weight: 100;
 }
 .content{
     text-align: center;
 }
 .timer{
-    font-size: 13.2vw;
+    font-size: 17vw;
+    margin-top: 30px; 
     color: #00d4df;
     /* color: #2980b9; */
-    margin: 0;
-    font-family: 'borsok', sans-serif;
-    font-weight: 100;
-
-    /* font-family: 'Caveat', cursive;
-    font-family: 'Source Code Pro', monospace; */
+    /* font-family: 'Source Code Pro', monospace;  */
 }
 
 .header{
@@ -26,23 +23,18 @@
     color: #00d4df;
     /* color: #2980b9; */
     margin-top: 50px;
-
-    font-family: 'borsok', sans-serif;
-    font-weight: 100;
-
-    /* font-family: 'Caveat', cursive;
-    font-family: 'Source Code Pro', monospace; */
 }
 
 .button{
-    margin-top: 50px;
-    width: 30vw;
-    padding: 10px 20px; /* Задайте отступы по вашему усмотрению */
+    margin-top: 20px;
+    width: 40vw;
+    padding: 18px 20px 10px 20px; 
     border: none;
-    border-radius: 20px; /* Закругление углов */
-    background-color: #00d4df; /* Цвет фона кнопки */
-    color: #fff; /* Цвет текста на кнопке */
-    font-size: 5vw; /* Размер шрифта */
-    cursor: pointer; /* Изменение курсора при наведении */
+    border-radius: 30px; 
+    background-color: #00d4df; 
+    color: #fff; 
+    font-size: 8vw; 
+    text-align: center;
+    vertical-align: bottom;
+    cursor: pointer;
 }
-
