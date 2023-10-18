@@ -40,10 +40,27 @@
 }
 
 .header{
-    font-size: 9vw;
-    color: linear-gradient(45deg, #FF00FF, #00FFFF);
-    /* color: #00d4df; */
-    margin-top: 50px;
+    font-size: 11vw;
+    margin-bottom: -10px;  
+    /* color: #00d4df;
+    color: linear-gradient(45deg, #FF00FF, #00FFFF); */
+
+    background: linear-gradient(180deg, #fa97cb, #4e99e4); /* Градиентные цвета */
+    background-clip: text; /* Применение фона только к тексту */
+    -webkit-background-clip: text; /* Для совместимости с некоторыми браузерами */
+    color: transparent;
+}
+
+.header2{
+    font-size: 11vw;
+    /* margin-bottom: -15px;   */
+    /* color: #00d4df;
+    color: linear-gradient(45deg, #FF00FF, #00FFFF); */
+
+    background: linear-gradient(180deg, #fa97cb, #4e99e4); /* Градиентные цвета */
+    background-clip: text; /* Применение фона только к тексту */
+    -webkit-background-clip: text; /* Для совместимости с некоторыми браузерами */
+    color: transparent;
 }
 
 .button{
