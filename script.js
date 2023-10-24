@@ -1,4 +1,4 @@
-var targetDate = new Date('2023-10-24T00:00:00').getTime();
+var targetDate = new Date('2023-10-24T19:00:00').getTime();
 var timer = document.getElementById('timer');
 
 function updateTimer() {
